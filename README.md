@@ -15,38 +15,6 @@ rank order=sorted(H(i))
 #### Instructions to run the code
 python3 crypto.py
 
-**Algorithm: Modified Myszkowski Cipher with Key Hashing and ASCII Transformation**
-Input:
-1. Plaintext string P
-2. Key string K
-Output:
-1. Ciphertext (HEX encoded)
-2. Decrypted plaintext
-
-**Encryption Process**
-1. Initialize empty list ciphertext
-2. Find maximum rank value in ranks
-3. For each rank r from 1 to max rank
-   * Find all column indices where rank = r
-   * Sort column indices in ascending order
-   * For each column:
-     * Traverse matrix row-wise
-     * Append non-empty elements to ciphertext
-4. Convert each number in ciphertext to HEX format
-5. Concatenate HEX values to form final ciphertext
-
-**Decryption Process**
-1. Convert HEX ciphertext into integer list
-2. Create empty matrix of size rows × cols
-3. Initialize index idx = 0
-4. For each rank r from 1 to max rank
-   * Find all column indices with rank = r
-   * Sort column indices
-   * Fill matrix column-wise (row by row) using ciphertext values
-5. Flatten matrix row-wise into list flat
-6. Apply inverse transformation:
-   P[i] = (flat[i] - k + 256) mod 256
-7. Convert ASCII values back to characters
 
 **EXAMPLE 1:**
 Enter plaintext: crypto

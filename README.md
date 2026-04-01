@@ -68,6 +68,6 @@ CIPHER NUMBERS: [100, 115, 99, 100, 115] => HEX(X)
 Ciphertext (HEX): adadbcbcac
 Decrypted: dscds
 
-####TEST SCRIPT
+###TEST SCRIPT
 crypto(plaintext)->[104,119,126,117,121,116]->b1a7aaac9ba8(ciphertext)->crypto(plaintext)
 round trip successful

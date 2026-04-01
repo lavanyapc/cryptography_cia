@@ -60,11 +60,11 @@ Ciphertext (HEX): b1a7aaac9ba8
 7. Decrypted Output: crypto
 
 **EXAMPLE 2:**
-*Enter plaintext: dscds
-*Enter key: key
-*CIPHER NUMBERS: 100, 115, 99, 100, 115 => HEX(X) 
-*Ciphertext (HEX): adadbcbcac
-*Decrypted: dscds
+1. Enter plaintext: dscds
+2. Enter key: key
+3. CIPHER NUMBERS: 100, 115, 99, 100, 115 => HEX(X) 
+4. Ciphertext (HEX): adadbcbcac
+5. Decrypted: dscds
 
 ###TEST SCRIPT
 *crypto(plaintext)->104,119,126,117,121,116->b1a7aaac9ba8(ciphertext)->crypto(plaintext)

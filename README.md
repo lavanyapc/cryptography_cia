@@ -15,11 +15,11 @@ Output:
 1. Initialize empty list ciphertext
 2. Find maximum rank value in ranks
 3. For each rank r from 1 to max rank:
-  3.1 Find all column indices where rank = r
-  3.2 Sort column indices in ascending order
-  3.3 For each column:
-   3.3.1 Traverse matrix row-wise
-   3.3.2 Append non-empty elements to ciphertext
+3.1 Find all column indices where rank = r
+3.2 Sort column indices in ascending order
+3.3 For each column:
+3.3.1 Traverse matrix row-wise
+3.3.2 Append non-empty elements to ciphertext
 4. Convert each number in ciphertext to HEX format
 5. Concatenate HEX values to form final ciphertext
 
@@ -28,9 +28,9 @@ Output:
 2. Create empty matrix of size rows × cols
 3. Initialize index idx = 0
 4. For each rank r from 1 to max rank:
-  4.1 Find all column indices with rank = r
-  4.2 Sort column indices
-  4.3 Fill matrix column-wise (row by row) using ciphertext values
+4.1 Find all column indices with rank = r
+4.2 Sort column indices
+4.3 Fill matrix column-wise (row by row) using ciphertext values
 5. Flatten matrix row-wise into list flat
 6. Apply inverse transformation:
    P[i] = (flat[i] - k + 256) mod 256

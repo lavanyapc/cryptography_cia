@@ -14,7 +14,7 @@ Output:
 **Encryption Process**
 1. Initialize empty list ciphertext
 2. Find maximum rank value in ranks
-3. For each rank r from 1 to max rank:
+3. For each rank r from 1 to max rank
 3.1 Find all column indices where rank = r
 3.2 Sort column indices in ascending order
 3.3 For each column:
@@ -27,7 +27,7 @@ Output:
 1. Convert HEX ciphertext into integer list
 2. Create empty matrix of size rows × cols
 3. Initialize index idx = 0
-4. For each rank r from 1 to max rank:
+4. For each rank r from 1 to max rank
 4.1 Find all column indices with rank = r
 4.2 Sort column indices
 4.3 Fill matrix column-wise (row by row) using ciphertext values

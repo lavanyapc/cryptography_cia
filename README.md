@@ -66,6 +66,6 @@ Ciphertext (HEX): b1a7aaac9ba8
 4. Ciphertext (HEX): adadbcbcac
 5. Decrypted: dscds
 
-###TEST SCRIPT
-*crypto(plaintext)->104,119,126,117,121,116->b1a7aaac9ba8(ciphertext)->crypto(plaintext)
-*round trip successful
+### TEST SCRIPT
+* crypto(plaintext)->104,119,126,117,121,116->b1a7aaac9ba8(ciphertext)->crypto(plaintext)
+* round trip successful

@@ -48,15 +48,19 @@ Output:
    P[i] = (flat[i] - k + 256) mod 256
 7. Convert ASCII values back to characters
 
-**EXAMPLE 1:**
-*Enter plaintext: crypto
-*Enter key: cat
-*P' = 104,119,126,117,121,116
-
-*CIPHER NUMBERS: 119,121,104,117,126,116 => HEX(X) => b1a7aaac9ba8
-*Ciphertext (HEX): b1a7aaac9ba8
-*177, 167, 170, 172, 155, 168 => RECONSTRUCT Matrix => P[i]=(value−k+256)mod256
-*Decrypted: crypto
+## EXAMPLE 1
+Plaintext: crypto
+CIPHER NUMBERS:
+119, 121, 104, 117, 126, 116
+HEX(X) → b1a7aaac9ba8
+Ciphertext (HEX): b1a7aaac9ba8
+Hex to Decimal:
+177, 167, 170, 172, 155, 168
+Matrix Reconstruction →
+Inverse Operation:
+P[i] = (value − k + 256) mod 256
+Decrypted Output:
+crypto
 
 **EXAMPLE 2:**
 *Enter plaintext: dscds

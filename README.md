@@ -15,7 +15,7 @@ rank order=sorted(H(i))
 ## Instructions to run the code
 python3 crypto.py
 
-## Algorithm: Modified Myszkowski Cipher with Key Hashing and ASCII Transformation**
+## Algorithm: Modified Myszkowski Cipher with Key Hashing and ASCII Transformation
 Input:
 1. Plaintext string P
 2. Key string K
@@ -66,6 +66,6 @@ Ciphertext (HEX): b1a7aaac9ba8
 4. Ciphertext (HEX): adadbcbcac
 5. Decrypted: dscds
 
-### TEST SCRIPT
+## TEST SCRIPT
 * crypto(plaintext)->104,119,126,117,121,116->b1a7aaac9ba8(ciphertext)->crypto(plaintext)
 * round trip successful

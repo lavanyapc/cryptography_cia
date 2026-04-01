@@ -49,18 +49,15 @@ Output:
 7. Convert ASCII values back to characters
 
 ## EXAMPLE 1
-Plaintext: crypto
-CIPHER NUMBERS:
-119, 121, 104, 117, 126, 116
-HEX(X) → b1a7aaac9ba8
+1. Plaintext: crypto
+2. CIPHER NUMBERS: 119, 121, 104, 117, 126, 116
+3. HEX(X) → b1a7aaac9ba8
 Ciphertext (HEX): b1a7aaac9ba8
-Hex to Decimal:
+4. Hex to Decimal:
 177, 167, 170, 172, 155, 168
-Matrix Reconstruction →
-Inverse Operation:
-P[i] = (value − k + 256) mod 256
-Decrypted Output:
-crypto
+5. Matrix Reconstruction →
+6. Inverse Operation: P[i] = (value − k + 256) mod 256
+7. Decrypted Output: crypto
 
 **EXAMPLE 2:**
 *Enter plaintext: dscds

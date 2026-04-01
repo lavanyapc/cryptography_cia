@@ -12,10 +12,10 @@ H(i)=(ASCII(K[i])×(i+1))mod26
 * Final ranks are assigned based on sorted hash values
 rank order=sorted(H(i))
 
-#### Instructions to run the code
+## Instructions to run the code
 python3 crypto.py
 
-**Algorithm: Modified Myszkowski Cipher with Key Hashing and ASCII Transformation**
+## Algorithm: Modified Myszkowski Cipher with Key Hashing and ASCII Transformation**
 Input:
 1. Plaintext string P
 2. Key string K
@@ -59,7 +59,7 @@ Ciphertext (HEX): b1a7aaac9ba8
 6. Inverse Operation: P[i] = (value − k + 256) mod 256
 7. Decrypted Output: crypto
 
-**EXAMPLE 2:**
+## EXAMPLE 2:
 1. Enter plaintext: dscds
 2. Enter key: key
 3. CIPHER NUMBERS: 100, 115, 99, 100, 115 => HEX(X) 

@@ -49,25 +49,22 @@ Output:
 7. Convert ASCII values back to characters
 
 **EXAMPLE 1:**
-Enter plaintext: crypto
-Enter key: cat
-P' = [104,119,126,117,121,116]
-*c   a   t
-*2   1   3   
-*104 119 126
-*117 121 116
-CIPHER NUMBERS: [119,121,104,117,126,116] => HEX(X) => b1a7aaac9ba8
-Ciphertext (HEX): b1a7aaac9ba8
-[177, 167, 170, 172, 155, 168] => RECONSTRUCT Matrix => P[i]=(value−k+256)mod256
-Decrypted: crypto
+*Enter plaintext: crypto
+*Enter key: cat
+*P' = 104,119,126,117,121,116
+
+*CIPHER NUMBERS: 119,121,104,117,126,116 => HEX(X) => b1a7aaac9ba8
+*Ciphertext (HEX): b1a7aaac9ba8
+*177, 167, 170, 172, 155, 168 => RECONSTRUCT Matrix => P[i]=(value−k+256)mod256
+*Decrypted: crypto
 
 **EXAMPLE 2:**
-Enter plaintext: dscds
-Enter key: key
-CIPHER NUMBERS: [100, 115, 99, 100, 115] => HEX(X) 
-Ciphertext (HEX): adadbcbcac
-Decrypted: dscds
+*Enter plaintext: dscds
+*Enter key: key
+*CIPHER NUMBERS: 100, 115, 99, 100, 115 => HEX(X) 
+*Ciphertext (HEX): adadbcbcac
+*Decrypted: dscds
 
 ###TEST SCRIPT
-crypto(plaintext)->[104,119,126,117,121,116]->b1a7aaac9ba8(ciphertext)->crypto(plaintext)
-round trip successful
+*crypto(plaintext)->104,119,126,117,121,116->b1a7aaac9ba8(ciphertext)->crypto(plaintext)
+*round trip successful

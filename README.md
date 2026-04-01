@@ -1,6 +1,6 @@
 # Myszkowski cipher with Hash function for key and plain text
 
-** DESCRIPTION:**
+**DESCRIPTION:**
 This algorithm implements a modified Myszkowski cipher using key-based hashing and ASCII transformation. The key is processed to generate column ranks, which determine the order of columnar transposition. The plaintext is converted into ASCII values and shifted using a key-derived value before being placed into a matrix. Encryption is performed using rank-based column traversal, and the output is encoded in HEX format. Decryption reverses the process using inverse transformation, matrix reconstruction, and HEX decoding to recover the original plaintext.
 
 **Algorithm: Modified Myszkowski Cipher with Key Hashing and ASCII Transformation**
